@@ -1,0 +1,117 @@
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+}
+
+
+/*Heading*/
+.heading {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 69px;
+	width: 100%;
+	position: fixed;
+	z-index: 5;
+	border-bottom: 1px solid seashell;
+	}
+
+.logo {
+  display: inline-flex;
+}
+
+nav {
+  display: inline-block;
+  text-align: right;
+  padding: 20px;
+}
+
+nav a {
+	padding: 10px;
+	color: seashell;
+}
+
+.logo img {
+	height: 50px;
+}
+
+/*Mission Statement*/
+
+.openjar img {
+	position: relative;
+	top: 69px;
+	max-height: 700px;
+	max-width: 1200px;
+}
+
+.mission {
+	width: 1200px;
+	background-color: black
+	text: center;
+	position: absolute;
+	top: 350px;
+	z-index: 5;
+}
+
+
+/*Tea of the Month*/
+
+.month {
+	background-color: black;
+	position: relative;
+	top: 120px;
+}
+
+.month.subtitle {
+	max-width: 1000px;
+}
+
+.gallery {
+	margin: 0 auto;
+	max-width: 1000px;
+	position: relative;
+	top: 120px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.tea img {
+	margin: 10px auto;
+    max-width: 300px;
+    max-height: 200px;
+    padding: 0 15px;
+}
+
+.tea h4 {
+	margin: 10px auto;
+}
+
+.locations {
+	background-image: url("./resources/images/img-locations-background.jpg" alt="tea with decorations")
+    height: 500px;
+	width: 1200px;
+	position: relative;
+	top: 180px;
+	left: 20px;
+
+}
+
+.stores {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	background-color: black;
+	opacity: 1;
+	z-index: 2;
+
+}
+
+
